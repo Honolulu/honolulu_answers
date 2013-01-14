@@ -30,10 +30,10 @@ gem 'dalli'                               # memcache gem for Rails.cache
 gem 'kgio'
 
 ## Admin
-gem 'activeadmin', '0.4.4'                # Back-end Content Management System
+gem 'activeadmin'                         # Back-end Content Management System
 gem 'devise', '~> 2.0'                    # User authentication 
 gem 'cancan'                              # User permissions
-#gem 'tinymce-rails'                       # WYSIWYG editor for edit form fields
+#gem 'tinymce-rails'                      # WYSIWYG editor for edit form fields
 
 ## Search and NLP
 gem 'tanker'                              # library for interacting with Searchify
